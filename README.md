@@ -1,1 +1,3 @@
 # Costal-Monitoring
+
+This project uses an open dataset for ship detetion, the dataset was made using Sentinel 1 SLC images. The model was trained using FasterRCNN Model. The code is split in two. The fist is Ship Sar train and de second is the Inference on Sentinel 1. On the inference notebook, here the Gdal I download the Sentinel 1 SCL imeges for Vertex and them are processed using GDAL. The inference a mede in cuts of s1 images and the bounding box are converted to Geographical Bouding boxx and ploted using folium. The last step is to generate the tiles for beeter visualization of the ships and its bounding box. 
